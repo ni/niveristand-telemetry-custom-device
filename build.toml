@@ -3,7 +3,7 @@ build_output_dir = 'Built'
 archive_location = '\\nirvana\Measurements\VeriStandAddons\telemetry_custom_device'
 
 [projects.cd]
-path = 'Source\Telemetry.lvproj'
+path = 'Source\Telemetry Custom Device.lvproj'
 
 [[build.steps]]
 name = 'Configuration Library'
