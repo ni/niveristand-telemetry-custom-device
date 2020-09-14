@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Custom Device.xsd">
+  <XSDVersion Major="2010" Minor="0" Fix="0" Build="0" />
+  <AddMenu>
+    <eng>National Instruments::Telemetry</eng>
+    <loc>National Instruments::Telemetry</loc>
+  </AddMenu>
+  <Version>1.0.0</Version>
+  <Type>Inline HW Interface</Type>
+  <MaxOccurrence>1</MaxOccurrence>
+  <MainPageGUID>93888e30-d6eb-4f06-90c8-66464dbab1ea</MainPageGUID>
+  <InitializationVI>
+    <Type>Action</Type>
+    <Item2Launch>
+      <Type>To Common Doc Dir</Type>
+      <Path>Custom Devices\Telemetry\Windows\Telemetry Configuration.llb\Initialization VI.vi</Path>
+    </Item2Launch>
+  </InitializationVI>
+  <CustomDeviceVI>
+    <SourceDistribution>
+      <Source>
+        <SupportedTarget>Windows</SupportedTarget>
+        <Source>
+          <Type>To Common Doc Dir</Type>
+          <Path>Custom Devices\Telemetry\Windows\Telemetry Engine Windows.llb\RT Driver VI.vi</Path>
+        </Source>
+        <RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Telemetry\Telemetry Engine Windows.llb\RT Driver VI.vi</RealTimeSystemDestination>
+      </Source>
+      <Source>
+        <SupportedTarget>Pharlap</SupportedTarget>
+        <Source>
+          <Type>To Common Doc Dir</Type>
+          <Path>Custom Devices\Telemetry\PharLap\Telemetry Engine Pharlap.llb\RT Driver VI.vi</Path>
+        </Source>
+        <RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Telemetry\Telemetry Engine Pharlap.llb\RT Driver VI.vi</RealTimeSystemDestination>
+      </Source>
+      <Source>
+        <SupportedTarget>VxWorks</SupportedTarget>
+        <Source>
+          <Type>To Common Doc Dir</Type>
+          <Path>Custom Devices\Telemetry\VxWorks\Telemetry Engine VxWorks.llb\RT Driver VI.vi</Path>
+        </Source>
+        <RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Telemetry\Telemetry Engine VxWorks.llb\RT Driver VI.vi</RealTimeSystemDestination>
+      </Source>
+      <Source>
+        <SupportedTarget>Linux_32_ARM</SupportedTarget>
+        <Source>
+          <Type>To Common Doc Dir</Type>
+          <Path>Custom Devices\Telemetry\Linux_32_ARM\Telemetry Engine LinuxARM.llb\RT Driver VI.vi</Path>
+        </Source>
+        <RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Telemetry\Telemetry Engine LinuxARM.llb\RT Driver VI.vi</RealTimeSystemDestination>
+      </Source>
+      <Source>
+        <SupportedTarget>Linux_x64</SupportedTarget>
+        <Source>
+          <Type>To Common Doc Dir</Type>
+          <Path>Custom Devices\Telemetry\Linux_x64\Telemetry Engine Linux64.llb\RT Driver VI.vi</Path>
+        </Source>
+        <RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Telemetry\Telemetry Engine Linux64.llb\RT Driver VI.vi</RealTimeSystemDestination>
+      </Source>
+    </SourceDistribution>
+  </CustomDeviceVI>
+  <Dependencies />
+  <Pages>
+    <Page>
+      <Name>
+        <eng>Telemetry</eng>
+        <loc>Telemetry</loc>
+      </Name>
+      <GUID>93888e30-d6eb-4f06-90c8-66464dbab1ea</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\default fpga category.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Telemetry\Windows\Telemetry Configuration.llb\Main Page.vi</Path>
+      </Item2Launch>
+    </Page>
+    
+<Page>
+      <Name>
+        <eng>Page1</eng>
+        <loc>Page1</loc>
+      </Name>
+      <GUID>665e130f-6b1d-4741-ab4b-127a5bcde637</GUID>
+      <Glyph>
+			<Type>To Application Data Dir</Type>
+			<Path>System Explorer\Glyphs\default fpga category.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\Telemetry\Windows\Telemetry Configuration.llb\Page1.vi</Path>
+      </Item2Launch>
+    </Page>
+<Page>
+      <Name>
+        <eng>Page2</eng>
+        <loc>Page2</loc>
+      </Name>
+      <GUID>e55144e3-5910-4106-829b-2ed658a2435e</GUID>
+      <Glyph>
+			<Type>To Application Data Dir</Type>
+			<Path>System Explorer\Glyphs\default fpga category.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\Telemetry\Windows\Telemetry Configuration.llb\Page2.vi</Path>
+      </Item2Launch>
+    </Page>
+<Page>
+      <Name>
+        <eng>Page3</eng>
+        <loc>Page3</loc>
+      </Name>
+      <GUID>b3adaea1-bc47-44c8-b0a7-feeb0c5a93bd</GUID>
+      <Glyph>
+			<Type>To Application Data Dir</Type>
+			<Path>System Explorer\Glyphs\default fpga category.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\Telemetry\Windows\Telemetry Configuration.llb\Page3.vi</Path>
+      </Item2Launch>
+    </Page>
+  </Pages>
+  <CustomXML>
+    <Dummy></Dummy>
+  </CustomXML>
+</CustomDevice>
