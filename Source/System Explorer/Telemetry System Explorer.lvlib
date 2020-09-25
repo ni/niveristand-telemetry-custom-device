@@ -13,14 +13,10 @@
 				<Item Name="ActionVIOnCompile.vi" Type="VI" URL="../ActionVIOnCompile.vi"/>
 			</Item>
 			<Item Name="Pages" Type="Folder">
-				<Item Name="Channels Page.vi" Type="VI" URL="../Channels Page.vi"/>
 				<Item Name="File Page.vi" Type="VI" URL="../File Page.vi"/>
 				<Item Name="Main Page.vi" Type="VI" URL="../Main Page.vi"/>
-				<Item Name="Page3.vi" Type="VI" URL="../Page3.vi"/>
 			</Item>
-			<Item Name="RTM" Type="Folder">
-				<Item Name="Export Configuration RTM.vi" Type="VI" URL="../Export Configuration RTM.vi"/>
-			</Item>
+			<Item Name="RTM" Type="Folder"/>
 			<Item Name="Initialization VI.vi" Type="VI" URL="../Initialization VI.vi"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
@@ -29,7 +25,6 @@
 			<Item Name="Create Unique Child Item Name.vi" Type="VI" URL="../Create Unique Child Item Name.vi"/>
 			<Item Name="Get Data Log File Settings.vi" Type="VI" URL="../Get Data Log File Settings.vi"/>
 			<Item Name="Get Default Log File Directory.vi" Type="VI" URL="../Get Default Log File Directory.vi"/>
-			<Item Name="Get System Channels Info.vi" Type="VI" URL="../Get System Channels Info.vi"/>
 			<Item Name="Load Help File.vi" Type="VI" URL="../Load Help File.vi"/>
 			<Item Name="New Log File Configuration.vi" Type="VI" URL="../New Log File Configuration.vi"/>
 		</Item>
