@@ -11,6 +11,8 @@
 		<Item Name="Run" Type="Folder"/>
 		<Item Name="Shut Down" Type="Folder"/>
 	</Item>
-	<Item Name="Types" Type="Folder"/>
+	<Item Name="Types" Type="Folder">
+		<Item Name="Loop Data.ctl" Type="VI" URL="../Loop Data.ctl"/>
+	</Item>
 	<Item Name="RT Driver VI.vi" Type="VI" URL="../RT Driver VI.vi"/>
 </Library>
