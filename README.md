@@ -8,7 +8,7 @@ LabVIEW 2019
 
 ## Dependencies
 
-- [NI VeriStand Custom Device Development Tools](https://github.com/ni/niveristand-custom-device-development-tools/releases) that contains the below:
+- [NI VeriStand Custom Device Development Tools](https://github.com/ni/niveristand-custom-device-development-tools/releases) that contains:
    - NI VeriStand Advanced System Definition Utilities
    - NI VeriStand Addon CD Import and Export Tool
    - NI VeriStand Addon Error API
