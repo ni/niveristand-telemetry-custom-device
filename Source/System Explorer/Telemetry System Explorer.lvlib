@@ -11,6 +11,7 @@
 		<Item Name="Dynamically Called" Type="Folder">
 			<Item Name="Actions" Type="Folder">
 				<Item Name="ActionVIOnCompile.vi" Type="VI" URL="../ActionVIOnCompile.vi"/>
+				<Item Name="ActionVIOnSave (File).vi" Type="VI" URL="../ActionVIOnSave (File).vi"/>
 			</Item>
 			<Item Name="Pages" Type="Folder">
 				<Item Name="File Page.vi" Type="VI" URL="../File Page.vi"/>
@@ -22,11 +23,13 @@
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="Add Log File.vi" Type="VI" URL="../Add Log File.vi"/>
 			<Item Name="Build Data Log File Path.vi" Type="VI" URL="../Build Data Log File Path.vi"/>
+			<Item Name="Check and Toggle Error.vi" Type="VI" URL="../Check and Toggle Error.vi"/>
 			<Item Name="Create Unique Child Item Name.vi" Type="VI" URL="../Create Unique Child Item Name.vi"/>
 			<Item Name="Get Data Log File Settings.vi" Type="VI" URL="../Get Data Log File Settings.vi"/>
 			<Item Name="Get Default Log File Directory.vi" Type="VI" URL="../Get Default Log File Directory.vi"/>
 			<Item Name="Load Help File.vi" Type="VI" URL="../Load Help File.vi"/>
 			<Item Name="New Log File Configuration.vi" Type="VI" URL="../New Log File Configuration.vi"/>
+			<Item Name="Throw Error if Invalid Path.vi" Type="VI" URL="../Throw Error if Invalid Path.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder"/>
 	</Item>

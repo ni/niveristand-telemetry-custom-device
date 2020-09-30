@@ -84,36 +84,10 @@
         <Type>To Common Doc Dir</Type>
 		<Path>Custom Devices\National Instruments\Telemetry\Windows\Telemetry Configuration.llb\File Page.vi</Path>
       </Item2Launch>
-    </Page>
-<Page>
-      <Name>
-        <eng>Channels Page</eng>
-        <loc>Channels Page</loc>
-      </Name>
-      <GUID>e55144e3-5910-4106-829b-2ed658a2435e</GUID>
-      <Glyph>
-			<Type>To Common Doc Dir</Type>
-			<Path>Custom Devices\National Instruments\Telemetry\Windows\Glyphs\ChnGroup.png</Path>
-		</Glyph>
-      <Item2Launch>
-        <Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\National Instruments\Telemetry\Windows\Telemetry Configuration.llb\Channels Page.vi</Path>
-      </Item2Launch>
-    </Page>
-<Page>
-      <Name>
-        <eng>Page3</eng>
-        <loc>Page3</loc>
-      </Name>
-      <GUID>b3adaea1-bc47-44c8-b0a7-feeb0c5a93bd</GUID>
-      <Glyph>
-			<Type>To Application Data Dir</Type>
-			<Path>System Explorer\Glyphs\default fpga category.png</Path>
-		</Glyph>
-      <Item2Launch>
-        <Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\National Instruments\Telemetry\Windows\Telemetry Configuration.llb\Page3.vi</Path>
-      </Item2Launch>
+      <ActionVIOnSave>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\National Instruments\Telemetry\Windows\Telemetry Configuration.llb\ActionVIOnSave (File).vi</Path>
+			</ActionVIOnSave>
     </Page>
   </Pages>
   <CustomXML>
