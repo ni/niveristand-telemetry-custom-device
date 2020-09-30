@@ -8,10 +8,11 @@ LabVIEW 2019
 
 ## Dependencies
 
-- [NI VeriStand Advanced System Definition Utilities](https://github.com/ni/niveristand-custom-device-development-tools)
-- [NI VeriStand Addon CD Import and Export Tool](https://github.com/ni/niveristand-custom-device-development-tools)
-- [NI VeriStand Addon Error API](https://github.com/ni/niveristand-custom-device-development-tools)
-- [NI Veristand Compiled HTML Menu Tool](https://github.com/ni/niveristand-custom-device-development-tools)
+- [NI VeriStand Custom Device Development Tools](https://github.com/ni/niveristand-custom-device-development-tools/releases)
+   - NI VeriStand Advanced System Definition Utilities
+   - NI VeriStand Addon CD Import and Export Tool
+   - NI VeriStand Addon Error API
+   - NI Veristand Compiled HTML Menu Tool
 - Microsoft HTML Help Workshop and Documentation >= 1.32
 - [NI VeriStand Custom Device Testing Tools](https://github.com/ni/niveristand-custom-device-testing-tools)
 - JKI VI Tester >= 3.0.2.294-1
