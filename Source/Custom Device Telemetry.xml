@@ -68,6 +68,10 @@
         <Type>To Common Doc Dir</Type>
         <Path>Custom Devices\National Instruments\Telemetry\Windows\Telemetry Configuration.llb\Main Page.vi</Path>
       </Item2Launch>
+      <ActionVIOnSave>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\National Instruments\Telemetry\Windows\Telemetry Configuration.llb\ActionVIOnSave - Update Log File Path.vi</Path>
+      </ActionVIOnSave>
     </Page>
     
 <Page>
