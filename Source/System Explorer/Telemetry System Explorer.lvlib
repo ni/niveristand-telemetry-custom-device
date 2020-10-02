@@ -21,10 +21,10 @@
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="Add Log File.vi" Type="VI" URL="../SubVIs/Add Log File.vi"/>
+			<Item Name="Configure Log File Properties.vi" Type="VI" URL="../SubVIs/Configure Log File Properties.vi"/>
 			<Item Name="Get Data Log File Settings.vi" Type="VI" URL="../SubVIs/Get Data Log File Settings.vi"/>
 			<Item Name="Get Default Log File Path.vi" Type="VI" URL="../SubVIs/Get Default Log File Path.vi"/>
 			<Item Name="Load Help File.vi" Type="VI" URL="../SubVIs/Load Help File.vi"/>
-			<Item Name="New Log File Configuration.vi" Type="VI" URL="../SubVIs/New Log File Configuration.vi"/>
 			<Item Name="Update Log File Path.vi" Type="VI" URL="../SubVIs/Update Log File Path.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder"/>
