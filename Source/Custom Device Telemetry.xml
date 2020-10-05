@@ -13,7 +13,7 @@
     <Type>Action</Type>
     <Item2Launch>
       <Type>To Common Doc Dir</Type>
-      <Path>Custom Devices\Telemetry\Windows\Telemetry Configuration.llb\Initialization VI.vi</Path>
+      <Path>Custom Devices\National Instruments\Telemetry\Windows\Telemetry Configuration.llb\Initialization VI.vi</Path>
     </Item2Launch>
   </InitializationVI>
   <CustomDeviceVI>
@@ -22,41 +22,33 @@
         <SupportedTarget>Windows</SupportedTarget>
         <Source>
           <Type>To Common Doc Dir</Type>
-          <Path>Custom Devices\Telemetry\Windows\Telemetry Engine Windows.llb\RT Driver VI.vi</Path>
+          <Path>Custom Devices\National Instruments\Telemetry\Windows\Telemetry Engine Windows.llb\RT Driver VI.vi</Path>
         </Source>
-        <RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Telemetry\Telemetry Engine Windows.llb\RT Driver VI.vi</RealTimeSystemDestination>
+        <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\National Instruments\Telemetry\Telemetry Engine Windows.llb\RT Driver VI.vi</RealTimeSystemDestination>
       </Source>
       <Source>
         <SupportedTarget>Pharlap</SupportedTarget>
         <Source>
           <Type>To Common Doc Dir</Type>
-          <Path>Custom Devices\Telemetry\PharLap\Telemetry Engine Pharlap.llb\RT Driver VI.vi</Path>
+          <Path>Custom Devices\National Instruments\Telemetry\PharLap\Telemetry Engine Pharlap.llb\RT Driver VI.vi</Path>
         </Source>
-        <RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Telemetry\Telemetry Engine Pharlap.llb\RT Driver VI.vi</RealTimeSystemDestination>
-      </Source>
-      <Source>
-        <SupportedTarget>VxWorks</SupportedTarget>
-        <Source>
-          <Type>To Common Doc Dir</Type>
-          <Path>Custom Devices\Telemetry\VxWorks\Telemetry Engine VxWorks.llb\RT Driver VI.vi</Path>
-        </Source>
-        <RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Telemetry\Telemetry Engine VxWorks.llb\RT Driver VI.vi</RealTimeSystemDestination>
+        <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\National Instruments\Telemetry\Telemetry Engine Pharlap.llb\RT Driver VI.vi</RealTimeSystemDestination>
       </Source>
       <Source>
         <SupportedTarget>Linux_32_ARM</SupportedTarget>
         <Source>
           <Type>To Common Doc Dir</Type>
-          <Path>Custom Devices\Telemetry\Linux_32_ARM\Telemetry Engine LinuxARM.llb\RT Driver VI.vi</Path>
+          <Path>Custom Devices\National Instruments\Telemetry\Linux_32_ARM\Telemetry Engine LinuxARM.llb\RT Driver VI.vi</Path>
         </Source>
-        <RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Telemetry\Telemetry Engine LinuxARM.llb\RT Driver VI.vi</RealTimeSystemDestination>
+        <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\National Instruments\Telemetry\Telemetry Engine LinuxARM.llb\RT Driver VI.vi</RealTimeSystemDestination>
       </Source>
       <Source>
         <SupportedTarget>Linux_x64</SupportedTarget>
         <Source>
           <Type>To Common Doc Dir</Type>
-          <Path>Custom Devices\Telemetry\Linux_x64\Telemetry Engine Linux64.llb\RT Driver VI.vi</Path>
+          <Path>Custom Devices\National Instruments\Telemetry\Linux_x64\Telemetry Engine Linux64.llb\RT Driver VI.vi</Path>
         </Source>
-        <RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Telemetry\Telemetry Engine Linux64.llb\RT Driver VI.vi</RealTimeSystemDestination>
+        <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\National Instruments\Telemetry\Telemetry Engine Linux64.llb\RT Driver VI.vi</RealTimeSystemDestination>
       </Source>
     </SourceDistribution>
   </CustomDeviceVI>
@@ -69,58 +61,32 @@
       </Name>
       <GUID>93888e30-d6eb-4f06-90c8-66464dbab1ea</GUID>
       <Glyph>
-        <Type>To Application Data Dir</Type>
-        <Path>System Explorer\Glyphs\default fpga category.png</Path>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\National Instruments\Telemetry\Windows\Glyphs\TimeTracker.png</Path>
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Telemetry\Windows\Telemetry Configuration.llb\Main Page.vi</Path>
+        <Path>Custom Devices\National Instruments\Telemetry\Windows\Telemetry Configuration.llb\Main Page.vi</Path>
       </Item2Launch>
+      <ActionVIOnSave>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\National Instruments\Telemetry\Windows\Telemetry Configuration.llb\ActionVIOnSave - Update Log File Path.vi</Path>
+      </ActionVIOnSave>
     </Page>
     
 <Page>
       <Name>
-        <eng>Page1</eng>
-        <loc>Page1</loc>
+        <eng>File Page</eng>
+        <loc>File Page</loc>
       </Name>
       <GUID>665e130f-6b1d-4741-ab4b-127a5bcde637</GUID>
       <Glyph>
-			<Type>To Application Data Dir</Type>
-			<Path>System Explorer\Glyphs\default fpga category.png</Path>
+			<Type>To Common Doc Dir</Type>
+			<Path>Custom Devices\National Instruments\Telemetry\Windows\Glyphs\file2.png</Path>
 		</Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\Telemetry\Windows\Telemetry Configuration.llb\Page1.vi</Path>
-      </Item2Launch>
-    </Page>
-<Page>
-      <Name>
-        <eng>Page2</eng>
-        <loc>Page2</loc>
-      </Name>
-      <GUID>e55144e3-5910-4106-829b-2ed658a2435e</GUID>
-      <Glyph>
-			<Type>To Application Data Dir</Type>
-			<Path>System Explorer\Glyphs\default fpga category.png</Path>
-		</Glyph>
-      <Item2Launch>
-        <Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\Telemetry\Windows\Telemetry Configuration.llb\Page2.vi</Path>
-      </Item2Launch>
-    </Page>
-<Page>
-      <Name>
-        <eng>Page3</eng>
-        <loc>Page3</loc>
-      </Name>
-      <GUID>b3adaea1-bc47-44c8-b0a7-feeb0c5a93bd</GUID>
-      <Glyph>
-			<Type>To Application Data Dir</Type>
-			<Path>System Explorer\Glyphs\default fpga category.png</Path>
-		</Glyph>
-      <Item2Launch>
-        <Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\Telemetry\Windows\Telemetry Configuration.llb\Page3.vi</Path>
+		<Path>Custom Devices\National Instruments\Telemetry\Windows\Telemetry Configuration.llb\File Page.vi</Path>
       </Item2Launch>
     </Page>
   </Pages>
