@@ -41,7 +41,7 @@
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="TLCD System Tests" Type="Folder">
-				<Item Name="TLCD System Tests.lvclass" Type="LVClass" URL="../../Tests/TLCD System Tests/TLCD System Tests.lvclass"/>
+				<Item Name="TLCD System Tests.lvclass" Type="LVClass" URL="../../Tests/TLCD System Tests/LVClass/TLCD System Tests.lvclass"/>
 			</Item>
 			<Item Name="TLCD Test Class" Type="Folder">
 				<Item Name="TLCD Test Class.lvclass" Type="LVClass" URL="../../Tests/TLCD Test Class/TLCD Test Class.lvclass"/>
