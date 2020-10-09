@@ -4,14 +4,21 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Engine" Type="Folder">
-		<Item Name="Init" Type="Folder"/>
+		<Item Name="Init" Type="Folder">
+			<Item Name="Initialize Logging Data.vi" Type="VI" URL="../Init/Initialize Logging Data.vi"/>
+		</Item>
 		<Item Name="Run" Type="Folder">
-			<Item Name="RT Buffered Logger.vi" Type="VI" URL="../RT Buffered Logger.vi"/>
+			<Item Name="RT Buffered Logger.vi" Type="VI" URL="../Run/RT Buffered Logger.vi"/>
 		</Item>
 		<Item Name="Shut Down" Type="Folder"/>
 	</Item>
-	<Item Name="TypeDefs" Type="Folder">
-		<Item Name="Logger Data.ctl" Type="VI" URL="../TypeDefs/Logger Data.ctl"/>
+	<Item Name="SubVIs" Type="Folder">
+		<Item Name="Get System Channels Info.vi" Type="VI" URL="../SubVIs/Get System Channels Info.vi"/>
+	</Item>
+	<Item Name="Types" Type="Folder">
+		<Item Name="Engine Logging Data.ctl" Type="VI" URL="../Types/Engine Logging Data.ctl"/>
+		<Item Name="Engine State Data.ctl" Type="VI" URL="../Types/Engine State Data.ctl"/>
+		<Item Name="Logger Data.ctl" Type="VI" URL="../Types/Logger Data.ctl"/>
 	</Item>
 	<Item Name="RT Driver VI.vi" Type="VI" URL="../RT Driver VI.vi"/>
 </Library>
