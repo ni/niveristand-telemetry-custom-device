@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="3A94B0F03C2B8D6950C86BEAC5B498F2B509964E06244E3D472B33DE027BDF968E666291B0E874EF339BA8DAC0B12EC79490D62DAA73FD1051F7D61AD710813C" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.0.2.51132" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.0.0.49152" Version="8.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.0.2.51132" FeatureSetName="VeriStand Core Components" Name="http://www.ni.com/VeriStand" OldestCompatibleVersion="7.0.0.49152" Version="7.0.0.49152" />
+		<ApplicationVersionInfo Build="7.2.0.2747" Name="VeriStand" Version="8.0.0.49956" />
+	</SourceModelFeatureSet>
+	<Project xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="1" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<EmbeddedDefinitionReference Id="2" ModelDefinitionType="NationalInstruments.ProjectExplorer.Modeling.ProjectDataManager" Name="ProjectExplorer">
+			<ProjectExplorer />
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="4" ModelDefinitionType="DefaultTarget" Name="DefaultTarget">
+			<DefaultTarget />
+			<EmbeddedDefinitionReference Id="5" ModelDefinitionType="GatewayDefinition" Name="Gateway" Reparentable="False">
+				<GatewayDefinition xmlns="http://www.ni.com/VeriStand" />
+			</EmbeddedDefinitionReference>
+			<FileReference Bindings=".nivscf" Id="76a60931206849d4b14374f5fa2f7f24" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="TLCD System.nivscf" StoragePath="TLCD System.nivscf" />
+			<SourceFileReference Id="64b123ad43f54ac282ff6fa390f6b645" ModelDefinitionType="{http://www.ni.com/VeriStand}Screen" Name="TLCD System.nivsscr" StoragePath="TLCD System.nivsscr" />
+			<FileReference Bindings=".nivsscreen" Id="2cc6bf60f42242aa8a319f4646090484" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="TLCD System.nivsscreen" StoragePath="TLCD System.nivsscreen" />
+			<FileReference Bindings=".nivsproj" Id="110b0a9fb7364379bca2b43818348eb4" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="TLCD System.nivsproj" StoragePath="TLCD System.nivsproj" />
+			<SourceFileReference Bindings="EnvoyManager" Id="74101f1062fb4b16be01ac25af303f3d" ModelDefinitionType="{http://www.ni.com/VeriStand}SystemDefinition" Name="TLCD System.nivssdf" StoragePath="TLCD System.nivssdf" />
+			<EmbeddedDefinitionReference Id="991c97ca18804b9499f9f37965f5bea5" ModelDefinitionType="SdfFilePath" Name="SdfPath" Reparentable="False">
+				<SdfFilePath SdfPath="TLCD System.nivssdf" xmlns="http://www.ni.com/VeriStand" />
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</Project>
+	<ProjectInformation xmlns="http://www.ni.com/PlatformFramework" />
+</SourceFile>

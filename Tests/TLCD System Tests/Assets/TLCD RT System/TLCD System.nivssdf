@@ -10,7 +10,7 @@
 				<String>TLCD System</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.8</String>
+				<String>1.0.0.11</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -28,10 +28,10 @@
 				<Description />
 				<Properties>
 					<Property Name="OS">
-						<String>Windows</String>
+						<String>Linux_x64</String>
 					</Property>
 					<Property Name="IP Address">
-						<String>localhost</String>
+						<String>10.113.1.184</String>
 					</Property>
 					<Property Name="Control Loop Processor">
 						<I32>-2</I32>
@@ -244,15 +244,9 @@
 							<Properties>
 								<Property Name="user.CD.Log File Path">
 									<StringArray>
-										<Elem>C</Elem>
-										<Elem>Users</Elem>
-										<Elem>nitest</Elem>
-										<Elem>Desktop</Elem>
-										<Elem>NI VS Telemetry CD Fork</Elem>
-										<Elem>Tests</Elem>
-										<Elem>TLCD System Tests</Elem>
-										<Elem>Assets</Elem>
-										<Elem>TLCD System</Elem>
+										<Elem>c</Elem>
+										<Elem>ni-rt</Elem>
+										<Elem>NIVeriStand</Elem>
 										<Elem>logs</Elem>
 										<Elem>telemetry.tdms</Elem>
 									</StringArray>
