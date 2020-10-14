@@ -10,7 +10,7 @@
 				<String>TLCD System</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.11</String>
+				<String>1.0.0.13</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -199,7 +199,7 @@
 								<U32>1</U32>
 							</Property>
 							<Property Name="Driver VI Path_0">
-								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Engine Simulation Toolkit\Engine Simulation Toolkit Engine Windows.llb\RT Driver VI.vi">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\National Instruments\Telemetry\Linux_x64\Telemetry Engine Linux64.llb\RT Driver VI.vi">
 									<Version>1.0.0</Version>
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\National Instruments\Telemetry\Telemetry Engine Linux64.llb\RT Driver VI.vi</RTDestination>
@@ -208,7 +208,7 @@
 								</DependentFile>
 							</Property>
 							<Property Name="Driver VI Path_1">
-								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Engine Simulation Toolkit\Engine Simulation Toolkit Engine Windows.llb\RT Driver VI.vi">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\National Instruments\Telemetry\Linux_32_ARM\Telemetry Engine LinuxARM.llb\RT Driver VI.vi">
 									<Version>1.0.0</Version>
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\National Instruments\Telemetry\Telemetry Engine LinuxARM.llb\RT Driver VI.vi</RTDestination>
@@ -217,7 +217,7 @@
 								</DependentFile>
 							</Property>
 							<Property Name="Driver VI Path_2">
-								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Engine Simulation Toolkit\Engine Simulation Toolkit Engine Windows.llb\RT Driver VI.vi">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\National Instruments\Telemetry\PharLap\Telemetry Engine Pharlap.llb\RT Driver VI.vi">
 									<Version>1.0.0</Version>
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\National Instruments\Telemetry\Telemetry Engine Pharlap.llb\RT Driver VI.vi</RTDestination>
@@ -247,7 +247,7 @@
 										<Elem>c</Elem>
 										<Elem>ni-rt</Elem>
 										<Elem>NIVeriStand</Elem>
-										<Elem>logs</Elem>
+										<Elem>Logs</Elem>
 										<Elem>telemetry.tdms</Elem>
 									</StringArray>
 								</Property>
@@ -260,6 +260,18 @@
 							</Properties>
 							<Errors />
 						</Section>
+						<Channel Name="Data FIFO Timeout" TypeGUID="03D3BB99-1485-13A6-561D1F898F032919" RowDim="1" ColDim="1" Units="" BitFields="1">
+							<Description>Indicates the total  number of times the Data FIFO had samples overwritten in the "Write Data to HW". Each overwriten sample contains the System Channel Values for one PCL Loop Iteration.</Description>
+							<Properties>
+								<Property Name="user.CD.Channel Type">
+									<BinaryString>RGF0YSBGSUZPIFRpbWVvdXQ=</BinaryString>
+								</Property>
+							</Properties>
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
 					</Section>
 				</Section>
 				<Section Name="Simulation Models" TypeGUID="03D3B937-1485-13A6-5600F2871E269F9A">
