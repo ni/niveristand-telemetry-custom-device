@@ -5,6 +5,7 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Engine" Type="Folder">
 		<Item Name="Init" Type="Folder">
+			<Item Name="Initialize Logger.vi" Type="VI" URL="../Init/Initialize Logger.vi"/>
 			<Item Name="Initialize Logging Data.vi" Type="VI" URL="../Init/Initialize Logging Data.vi"/>
 		</Item>
 		<Item Name="Run" Type="Folder">
