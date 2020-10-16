@@ -9,7 +9,7 @@
 			<Item Name="Initialize Logging Data.vi" Type="VI" URL="../Init/Initialize Logging Data.vi"/>
 		</Item>
 		<Item Name="Run" Type="Folder">
-			<Item Name="RT Buffered Logger.vi" Type="VI" URL="../Run/RT Buffered Logger.vi"/>
+			<Item Name="Async Logger.vi" Type="VI" URL="../Run/Async Logger.vi"/>
 		</Item>
 		<Item Name="Shut Down" Type="Folder"/>
 	</Item>
