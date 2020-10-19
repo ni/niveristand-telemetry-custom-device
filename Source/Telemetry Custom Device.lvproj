@@ -41,10 +41,10 @@
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="Parent Class" Type="Folder">
-				<Item Name="TLCD Test.lvclass" Type="LVClass" URL="../../Tests/TLCD Test/TLCD Test.lvclass"/>
+				<Item Name="Telemetry Test Utilities.lvclass" Type="LVClass" URL="../../Tests/Telemetry Test Utilities/Telemetry Test Utilities.lvclass"/>
 			</Item>
 			<Item Name="System" Type="Folder">
-				<Item Name="Telemetry System Tests.lvclass" Type="LVClass" URL="../../Tests/System Tests/LVClass/Telemetry System Tests.lvclass"/>
+				<Item Name="Telemetry System Tests.lvclass" Type="LVClass" URL="../../Tests/System Tests/Telemetry System Tests/Telemetry System Tests.lvclass"/>
 			</Item>
 			<Item Name="Unit" Type="Folder"/>
 		</Item>
