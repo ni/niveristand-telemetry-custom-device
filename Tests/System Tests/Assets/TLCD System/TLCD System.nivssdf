@@ -10,7 +10,7 @@
 				<String>TLCD System</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.14</String>
+				<String>1.0.0.2</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -98,12 +98,6 @@
 					</Property>
 					<Property Name="FPGAScanInterfaceMode">
 						<U16>0</U16>
-					</Property>
-					<Property Name="Timing Source Settings">
-						<U16>0</U16>
-					</Property>
-					<Property Name="Username">
-						<String>admin</String>
 					</Property>
 				</Properties>
 				<Errors />
@@ -250,9 +244,9 @@
 										<Elem>Desktop</Elem>
 										<Elem>NI VS Telemetry CD Fork</Elem>
 										<Elem>Tests</Elem>
-										<Elem>TLCD System Tests</Elem>
+										<Elem>System Tests</Elem>
 										<Elem>Assets</Elem>
-										<Elem>TLCD Windows System</Elem>
+										<Elem>TLCD System</Elem>
 										<Elem>Logs</Elem>
 										<Elem>telemetry.tdms</Elem>
 									</StringArray>
