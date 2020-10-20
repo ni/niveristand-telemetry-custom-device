@@ -1,12 +1,6 @@
 Built
 *.lvlps
 *.aliases
-Tests/TLCD System Tests/Assets/TLCD System/Logs/
-Tests/TLCD System Tests/Temp/
-Tests/TLCD System Tests/Assets/TLCD RT System/Logs/
-Tests/TLCD System Tests/Assets/TLCD Windows System/.cache/
-Tests/TLCD System Tests/Assets/TLCD RT System/.cache/
-Tests/TLCD System Tests/Assets/TLCD Windows System/Logs/
 Tests/System Tests/Temp/
 Tests/System Tests/Assets/TLCD System/.cache/
 Tests/System Tests/Assets/TLCD System/Logs/
