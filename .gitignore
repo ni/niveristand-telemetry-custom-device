@@ -1,3 +1,6 @@
 Built
 *.lvlps
 *.aliases
+Tests/System Tests/Temp/
+Tests/System Tests/Assets/TLCD System/.cache/
+Tests/System Tests/Assets/TLCD System/Logs/
