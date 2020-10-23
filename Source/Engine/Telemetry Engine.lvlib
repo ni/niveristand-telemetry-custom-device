@@ -14,7 +14,7 @@
 		<Item Name="Shut Down" Type="Folder"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
-		<Item Name="Get System Channels refs.vi" Type="VI" URL="../SubVIs/Get System Channels refs.vi"/>
+		<Item Name="Get System Channels Refs.vi" Type="VI" URL="../SubVIs/Get System Channels Refs.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="Engine Logging Data.ctl" Type="VI" URL="../Types/Engine Logging Data.ctl"/>
