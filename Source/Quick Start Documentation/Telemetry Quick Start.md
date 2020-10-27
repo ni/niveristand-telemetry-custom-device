@@ -11,15 +11,14 @@ This NI VeriStand Custom Device provides a way of understanding the health of a 
 ---
 <br>
 
-# Add-on Specifics
-## Add-on Configuration
+# Execution
 
-The Custom Device provides the data logging out of the box with minimal user configuration required.
-Upon adding you can already deploy your VeriStand system and based on the target type used (Windows or RT) after you undeploy you can find the logged data in one of the following locations:
+The Custom Device provides the data logging out of the box with minimal user configuration required.</br>
+Upon adding you can deploy your VeriStand system and based on the target type used (Windows or RT) after you undeploy you can find the logged data in one of the following locations:
 - Windows: "<System Definition Folder Path>\Logs\telemetry.tdms"
-- RT: "c:\ni-rt\NIVeriStand\Logs\telemetry.tdms"
+- RT: "c:\ni-rt\NIVeriStand\Logs\telemetry.tdms" </br>
+</br>
+The list of System Channels that are logged:
+- 
 
-## Add-on Execution
-
-???
 
