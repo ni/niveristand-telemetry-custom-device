@@ -25,10 +25,12 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
          This section contains details regarding the location of the log file and lets the user choose to overwrite the log file if it already exists on the target. </p>
       <p>
          The log file will be located at one of the following paths depending on the target type:</br>
-         <strong>Log File Path for Windows Targets:</strong> "&ltSystem Definition Folder Path&gt\Logs\telemetry.tdms"</br>
-         <strong>Log File Path for RT Targets:</strong> "c:\ni-rt\NIVeriStand\Logs\telemetry.tdms" </p>
+         <strong>- Log File Path for Windows Targets:</strong> "&ltSystem Definition Folder Path&gt\Logs\telemetry.tdms"</br>
+         <strong>- Log File Path for RT Targets:</strong> "c:\ni-rt\NIVeriStand\Logs\telemetry.tdms" </p>
       <p>
-         Overwriting the log file if it already exists can be done by having checked the Boolean Control checkbox:</br>
-			<strong>Overwrite File If Exists?:</strong> If the checkbox is <strong>checked</strong>, the Telemetry Custom Device will overwrite the log file during each deployment of the VeriStand system. If the checkbox is <strong>unchecked</strong> the Telemetry Custom Device will create a new log file only if no log file exists at the specific location on the target. If the log file already exists, and the checkbox is unchecked, no new file will be created during the deployment.</p>
+         Overwriting the log file if it already exists can be done by having checked the:</br>
+			<strong>Overwrite File If Exists?:</strong> If the checkbox is <strong>checked</strong>, the Telemetry Custom Device will overwrite the log file during each deployment of the VeriStand system. If the checkbox is <strong>unchecked</strong> the Telemetry Custom Device will create a new log file only if no log file exists at the specific location on the target. </br>
+         </br>
+         <strong>Note: </strong>If a log file already exists at the specified path, and the checkbox for <strong>Overwrite File If Exists? </strong>is unchecked, no new file will be created, and no logging will be done during deployment.</p>
 	</body>
 </html> 
