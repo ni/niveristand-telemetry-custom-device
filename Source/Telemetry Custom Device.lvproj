@@ -39,7 +39,9 @@
 			<Item Name="Telemetry Test Utilities" Type="Folder">
 				<Item Name="Telemetry Test Utilities.lvlib" Type="Library" URL="../../Tests/Telemetry Test Utilities/Telemetry Test Utilities.lvlib"/>
 			</Item>
-			<Item Name="Unit" Type="Folder"/>
+			<Item Name="Unit" Type="Folder">
+				<Item Name="Telemetry Unit Tests.lvclass" Type="LVClass" URL="../../Tests/Unit Tests/Telemetry Unit Tests/Telemetry Unit Tests.lvclass"/>
+			</Item>
 		</Item>
 		<Item Name="Utility" Type="Folder">
 			<Item Name="Copy .LLB to NI VeriStand dir.vi" Type="VI" URL="../Utility/Copy .LLB to NI VeriStand dir.vi"/>
