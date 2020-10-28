@@ -28,6 +28,9 @@ After adding the Custom Device you can deploy the VeriStand System Definition an
 - WPL Overflow Count
 - WPL TCP Overflow Count
 
+- test
+- test2
+
    <p>
    There is an option to keep only the latest file on the target, by having the <strong>Overwrite File If Exists?</strong> checked, or keep only the first created file, if you leave the control unchecked.
    </p>
