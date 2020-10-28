@@ -11,8 +11,8 @@ This NI VeriStand Custom Device provides a way of understanding the health of a 
 The Telemetry Custom Device provides data logging out of the box with minimal user configuration required.
 
 After adding the Custom Device you can deploy the VeriStand System Definition and the Custom Device will start logging data to a TDMS file. When you undeploy, the file containing the logged data will be found at one of the below locations, depending on the type of Target used:
-- <strong>Windows: </strong>"&lt;System Definition Folder Path&gt;\Logs\telemetry.tdms"
-- <strong>RT: </strong>"c:\ni-rt\NIVeriStand\Logs\telemetry.tdms"
+- **Windows:** "&lt;System Definition Folder Path&gt;\Logs\telemetry.tdms"
+- **RT:** "c:\ni-rt\NIVeriStand\Logs\telemetry.tdms"
 
 ## Logged System Channels:
 - Absolute Time
