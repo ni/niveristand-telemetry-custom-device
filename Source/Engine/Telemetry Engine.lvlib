@@ -14,6 +14,7 @@
 		<Item Name="Shut Down" Type="Folder"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
+		<Item Name="Filter Deprecated Data.vi" Type="VI" URL="../SubVIs/Filter Deprecated Data.vi"/>
 		<Item Name="Get System Channels Refnums.vi" Type="VI" URL="../SubVIs/Get System Channels Refnums.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
