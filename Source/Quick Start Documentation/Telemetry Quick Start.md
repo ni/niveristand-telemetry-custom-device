@@ -13,7 +13,7 @@ After adding the Custom Device you can deploy the VeriStand System Definition an
 - <strong>Windows: </strong>"&lt;System Definition Folder Path&gt;\Logs\telemetry.tdms"
 - <strong>RT: </strong>"c:\ni-rt\NIVeriStand\Logs\telemetry.tdms" </br>
 
-## Logged System Channels:</br>
+## Logged System Channels:
 - Absolute Time
 - Iteration
 - Actual Loop Rate
@@ -27,9 +27,6 @@ After adding the Custom Device you can deploy the VeriStand System Definition an
 - WPL Error Count
 - WPL Overflow Count
 - WPL TCP Overflow Count
-
-- test
-- test2
 
    <p>
    There is an option to keep only the latest file on the target, by having the <strong>Overwrite File If Exists?</strong> checked, or keep only the first created file, if you leave the control unchecked.
