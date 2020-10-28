@@ -3,7 +3,7 @@
 	<MD5Checksum />
 	<Version Major="2015" Minor="0" Fix="0" Build="0" />
 	<Content>Definition</Content>
-	<Root Name="Telemetry Test" TypeGUID="d9313aae-3554-45e5-93f3-86454275d4f2">
+	<Root Name="Telemetry Manual Test" TypeGUID="d9313aae-3554-45e5-93f3-86454275d4f2">
 		<Description />
 		<Properties>
 			<Property Name="Name">
@@ -76,11 +76,11 @@
 				</Properties>
 				<Errors />
 			</Section>
-			<Section Name="Telemetry Test.nivsprj" TypeGUID="53735ba2-ebbf-4751-b2f2-531478d45887">
+			<Section Name="Telemetry Manual Test.nivsprj" TypeGUID="53735ba2-ebbf-4751-b2f2-531478d45887">
 				<Description />
 				<Properties>
 					<Property Name="Path">
-						<DependentFile Type="Relative" Path="Telemetry Test.nivsprj">
+						<DependentFile Type="Relative" Path="Telemetry Manual Test.nivsprj">
 							<Version />
 							<RTDestination />
 							<SupportedTarget />
@@ -192,38 +192,38 @@
 			<Description />
 			<Properties />
 			<Errors />
-			<Section Name="Telemetry Test.nivssdf" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
+			<Section Name="Telemetry Test.nivssdf (1)" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
 				<Description />
 				<Properties>
 					<Property Name="Path">
-						<String>C:\Users\nitest\Desktop\NI VS Telemetry CD Fork\Tests\System Tests\Assets\Telemetry Test\Telemetry Test.nivssdf</String>
+						<String>C:\Users\nitest\Desktop\NI VS Telemetry CD Fork\Tests\System Tests\Assets\Telemetry Manual Test\Telemetry Test.nivssdf</String>
 					</Property>
 				</Properties>
 				<Errors />
 			</Section>
-			<Section Name="Telemetry Test.nivsscreen" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
+			<Section Name="Telemetry Test.nivsscreen (1)" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
 				<Description />
 				<Properties>
 					<Property Name="Path">
-						<String>C:\Users\nitest\Desktop\NI VS Telemetry CD Fork\Tests\System Tests\Assets\Telemetry Test\Telemetry Test.nivsscreen</String>
+						<String>C:\Users\nitest\Desktop\NI VS Telemetry CD Fork\Tests\System Tests\Assets\Telemetry Manual Test\Telemetry Test.nivsscreen</String>
 					</Property>
 				</Properties>
 				<Errors />
 			</Section>
-			<Section Name="Telemetry Test.nivsprj" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
+			<Section Name="Telemetry Test.nivscf (1)" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
 				<Description />
 				<Properties>
 					<Property Name="Path">
-						<String>C:\Users\nitest\Desktop\NI VS Telemetry CD Fork\Tests\System Tests\Assets\Telemetry Test\Telemetry Test.nivsprj</String>
+						<String>C:\Users\nitest\Desktop\NI VS Telemetry CD Fork\Tests\System Tests\Assets\Telemetry Manual Test\Telemetry Test.nivscf</String>
 					</Property>
 				</Properties>
 				<Errors />
 			</Section>
-			<Section Name="Telemetry Test.nivscf" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
+			<Section Name="Telemetry Manual Test.nivsprj" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
 				<Description />
 				<Properties>
 					<Property Name="Path">
-						<String>C:\Users\nitest\Desktop\NI VS Telemetry CD Fork\Tests\System Tests\Assets\Telemetry Test\Telemetry Test.nivscf</String>
+						<String>C:\Users\nitest\Desktop\NI VS Telemetry CD Fork\Tests\System Tests\Assets\Telemetry Manual Test\Telemetry Manual Test.nivsprj</String>
 					</Property>
 				</Properties>
 				<Errors />
