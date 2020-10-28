@@ -73,8 +73,7 @@
         <Path>Custom Devices\National Instruments\Telemetry\Windows\Telemetry Configuration.llb\ActionVIOnSave - Update Log File Path.vi</Path>
       </ActionVIOnSave>
     </Page>
-    
-<Page>
+    <Page>
       <Name>
         <eng>File Page</eng>
         <loc>File Page</loc>
