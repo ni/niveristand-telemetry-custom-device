@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="867C9ECB6315937601A1B09FDB59B6B199246EB8B2343D2A4B125801134A7E897BCB3313C4630E651103C81225AF1F2C69A82D155C20A032EF13179A6BA5DB63" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.0.2.51132" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.0.0.49152" Version="8.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.0.2.51132" FeatureSetName="VeriStand Core Components" Name="http://www.ni.com/VeriStand" OldestCompatibleVersion="7.0.0.49152" Version="7.0.0.49152" />
+		<ApplicationVersionInfo Build="7.2.0.2747" Name="VeriStand" Version="8.0.0.49956" />
+	</SourceModelFeatureSet>
+	<Project xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="1" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<EmbeddedDefinitionReference Id="2" ModelDefinitionType="NationalInstruments.ProjectExplorer.Modeling.ProjectDataManager" Name="ProjectExplorer">
+			<ProjectExplorer />
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="4" ModelDefinitionType="DefaultTarget" Name="DefaultTarget">
+			<DefaultTarget />
+			<EmbeddedDefinitionReference Id="5" ModelDefinitionType="GatewayDefinition" Name="Gateway" Reparentable="False">
+				<GatewayDefinition xmlns="http://www.ni.com/VeriStand" />
+			</EmbeddedDefinitionReference>
+			<FileReference Bindings=".nivscf" Id="74fa8103aff64a5cba7b2b6671bdffc2" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="Telemetry Test.nivscf" StoragePath="Telemetry Test.nivscf" />
+			<SourceFileReference Id="b2cf5eb292264acf83a608a44c698888" ModelDefinitionType="{http://www.ni.com/VeriStand}Screen" Name="Telemetry Manual Test.nivsscr" StoragePath="Telemetry Manual Test.nivsscr" />
+			<FileReference Bindings=".nivsscreen" Id="f69cd4e4e5d24e709c9496c5e0aa03fa" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="Telemetry Test.nivsscreen" StoragePath="Telemetry Test.nivsscreen" />
+			<FileReference Bindings=".nivsproj" Id="7f3682bada94cf7bffbaed41c065d10" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="Telemetry Manual Test.nivsproj" StoragePath="Telemetry Manual Test.nivsproj" />
+			<SourceFileReference Bindings="EnvoyManager" Id="b37da620d3534c14bdb15601ce7a865a" ModelDefinitionType="{http://www.ni.com/VeriStand}SystemDefinition" Name="Telemetry Test.nivssdf" StoragePath="Telemetry Test.nivssdf" />
+			<EmbeddedDefinitionReference Id="d5dd2b036c624a0c90f1035271d6bbc3" ModelDefinitionType="SdfFilePath" Name="SdfPath" Reparentable="False">
+				<SdfFilePath SdfPath="Telemetry Test.nivssdf" xmlns="http://www.ni.com/VeriStand" />
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</Project>
+	<ProjectInformation xmlns="http://www.ni.com/PlatformFramework" />
+</SourceFile>
