@@ -34,7 +34,7 @@
 </Property>
 	<Property Name="NI.LVClass.IsTransferClass" Type="Bool">false</Property>
 	<Property Name="NI.LVClass.LowestCompatibleVersion" Type="Str">1.0.0.0</Property>
-	<Property Name="NI.LVClass.ParentClassLinkInfo" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#$!!!!!2F7:8*J5X2B&lt;G25:8.U1W&amp;T:3ZM&gt;G.M98.T5&amp;2)-!!!!&amp;U!!1!)!!!!!!!H&lt;GFW:8*J=X2B&lt;G1N9X6T&gt;'^N,72F&gt;GFD:3VU:8.U;7ZH,82P&lt;WRT%6:F=GF4&gt;'&amp;O:&amp;2F=X2$98.F'6:F=GF4&gt;'&amp;O:&amp;2F=X2$98.F,GRW9WRB=X-!!!!!</Property>
+	<Property Name="NI.LVClass.ParentClassLinkInfo" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"^!!!!!2F7:8*J5X2B&lt;G25:8.U1W&amp;T:3ZM&gt;G.M98.T5&amp;2)-!!!!&amp;=!!1!)!!!!!!!B4EEA6F-A1X6T&gt;'^N)%2F&gt;GFD:3"5:8.U;7ZH)&amp;2P&lt;WRT%6:F=GF4&gt;'&amp;O:&amp;2F=X2$98.F'6:F=GF4&gt;'&amp;O:&amp;2F=X2$98.F,GRW9WRB=X-!!!!!</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Telemetry System Tests.ctl" Type="Class Private Data" URL="Telemetry System Tests.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -72,6 +72,15 @@
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
+		</Item>
+		<Item Name="test_TDMS File Integrity.vi" Type="VI" URL="../tests/test_TDMS File Integrity.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%Y!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$B!=!!?!!!A(F2F&lt;'6N:82S?3"4?8.U:7UA6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!!$&amp;2F=X2$98.F)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!W1(!!(A!!)"Z5:7RF&lt;76U=HEA5XFT&gt;'6N)&amp;2F=X2T,GRW9WRB=X-!!!N5:8.U1W&amp;T:3"J&lt;A"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q-!!(A!!!U)!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!)!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">16777219</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1074541072</Property>
 		</Item>
 	</Item>
 	<Item Name="subVIs" Type="Folder">
