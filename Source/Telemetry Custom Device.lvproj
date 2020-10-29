@@ -1,5 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="19008000">
+	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
@@ -39,7 +41,9 @@
 			<Item Name="Telemetry Test Utilities" Type="Folder">
 				<Item Name="Telemetry Test Utilities.lvlib" Type="Library" URL="../../Tests/Telemetry Test Utilities/Telemetry Test Utilities.lvlib"/>
 			</Item>
-			<Item Name="Unit" Type="Folder"/>
+			<Item Name="Unit" Type="Folder">
+				<Item Name="Telemetry Unit Tests.lvclass" Type="LVClass" URL="../../Tests/Unit Tests/Telemetry Unit Tests/Telemetry Unit Tests.lvclass"/>
+			</Item>
 		</Item>
 		<Item Name="Utility" Type="Folder">
 			<Item Name="Copy .LLB to NI VeriStand dir.vi" Type="VI" URL="../Utility/Copy .LLB to NI VeriStand dir.vi"/>
