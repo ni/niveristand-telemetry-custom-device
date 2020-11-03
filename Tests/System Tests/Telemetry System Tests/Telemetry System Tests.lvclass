@@ -34,7 +34,7 @@
 </Property>
 	<Property Name="NI.LVClass.IsTransferClass" Type="Bool">false</Property>
 	<Property Name="NI.LVClass.LowestCompatibleVersion" Type="Str">1.0.0.0</Property>
-	<Property Name="NI.LVClass.ParentClassLinkInfo" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"^!!!!!2F7:8*J5X2B&lt;G25:8.U1W&amp;T:3ZM&gt;G.M98.T5&amp;2)-!!!!&amp;=!!1!)!!!!!!!B4EEA6F-A1X6T&gt;'^N)%2F&gt;GFD:3"5:8.U;7ZH)&amp;2P&lt;WRT%6:F=GF4&gt;'&amp;O:&amp;2F=X2$98.F'6:F=GF4&gt;'&amp;O:&amp;2F=X2$98.F,GRW9WRB=X-!!!!!</Property>
+	<Property Name="NI.LVClass.ParentClassLinkInfo" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#$!!!!!2F7:8*J5X2B&lt;G25:8.U1W&amp;T:3ZM&gt;G.M98.T5&amp;2)-!!!!&amp;U!!1!)!!!!!!!H&lt;GFW:8*J=X2B&lt;G1N9X6T&gt;'^N,72F&gt;GFD:3VU:8.U;7ZH,82P&lt;WRT%6:F=GF4&gt;'&amp;O:&amp;2F=X2$98.F'6:F=GF4&gt;'&amp;O:&amp;2F=X2$98.F,GRW9WRB=X-!!!!!</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Telemetry System Tests.ctl" Type="Class Private Data" URL="Telemetry System Tests.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
