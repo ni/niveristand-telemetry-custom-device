@@ -1,6 +1,6 @@
 # Overview
 
-This NI VeriStand Custom Device provides a way of understanding the health of a VeriStand System by Logging System Channels for each PCL iteration.
+The Telemetry Custom Device enables data logging functionality to help you understand the health of a VeriStand system. It provides the ability to log system channels for each PCL iteration out of the box.
 
 # Repo location
 
@@ -8,13 +8,14 @@ This NI VeriStand Custom Device provides a way of understanding the health of a 
 
 # Execution
 
-The Telemetry Custom Device provides data logging out of the box with minimal user configuration required.
+After adding the custom device, you can deploy the system definition in VeriStand to begin logging data to a TDMS file. When you undeploy the system definition, you can access this file.
 
-After adding the Custom Device you can deploy the VeriStand System Definition and the Custom Device will start logging data to a TDMS file. When you undeploy, the file containing the logged data will be found at one of the below locations, depending on the type of Target used:
+Depending on the target type, the log file can be found in the following locations:
 - **Windows:** "&lt;System Definition Folder Path&gt;\Logs\telemetry.tdms"
 - **RT:** "c:\ni-rt\NIVeriStand\Logs\telemetry.tdms"
 
 ## Logged System Channels:
+You can log the following system channels:
 - Absolute Time
 - Iteration
 - Actual Loop Rate
@@ -29,6 +30,6 @@ After adding the Custom Device you can deploy the VeriStand System Definition an
 - WPL Overflow Count
 - WPL TCP Overflow Count
 
-   There is an option to keep only the latest file on the target, by having the **Overwrite File If Exists?** checked, or keep only the first created file, if you leave the control unchecked.
-   
-   **Note:** If **Overwrite File If Exists?** is unchecked and a log file already exists at the specific location, no new file will be created during deployment, and no data logging will take place.
+By default, this custom device only retains the first TDMS file created on the target. To keep the latest file instead, enable **Overwrite File If Exists?**.
+
+ **Note:** If **Overwrite File If Exists?** is not enabled and a log file is present at the target location, no new file will be created during deployment.
