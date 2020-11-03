@@ -15,7 +15,7 @@ Depending on the target type, the log file can be found in the following locatio
 - **RT:** "c:\ni-rt\NIVeriStand\Logs\telemetry.tdms"
 
 ## Logged System Channels:
-You can log the following system channels:
+The following system channels are logged:
 - Absolute Time
 - Iteration
 - Actual Loop Rate
@@ -30,6 +30,6 @@ You can log the following system channels:
 - WPL Overflow Count
 - WPL TCP Overflow Count
 
-By default, this custom device only retains the first TDMS file created on the target. To keep the latest file instead, enable **Overwrite File If Exists?**.
+By default, this custom device will overwrite the TDMS file created on the target during each deployment. To keep the first file instead, disable **Overwrite File If Exists?**.
 
  **Note:** If **Overwrite File If Exists?** is not enabled and a log file is present at the target location, no new file will be created during deployment.
