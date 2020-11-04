@@ -3,20 +3,20 @@
 	<MD5Checksum />
 	<Version Major="2017" Minor="0" Fix="1" Build="0" />
 	<Content>Definition</Content>
-	<Root Name="TLCD System" TypeGUID="03D3BA22-1485-13A6-56BD17DA950CCD00">
+	<Root Name="Telemetry Error Code_Overwrite File Enabled" TypeGUID="03D3BA22-1485-13A6-56BD17DA950CCD00">
 		<Description />
 		<Properties>
 			<Property Name="Name">
-				<String>TLCD System</String>
+				<String>Telemetry Error Code_Overwrite File Enabled</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.2</String>
+				<String>1.0.0.5</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
 			</Property>
 			<Property Name="Creation Date">
-				<Double>3600957293.3245616</Double>
+				<Double>3687267025.5721655</Double>
 			</Property>
 		</Properties>
 		<Errors />
@@ -97,6 +97,9 @@
 						<Double>15</Double>
 					</Property>
 					<Property Name="FPGAScanInterfaceMode">
+						<U16>0</U16>
+					</Property>
+					<Property Name="Timing Source Settings">
 						<U16>0</U16>
 					</Property>
 				</Properties>
@@ -239,14 +242,12 @@
 								<Property Name="user.CD.Log File Path">
 									<StringArray>
 										<Elem>C</Elem>
-										<Elem>Users</Elem>
-										<Elem>nitest</Elem>
-										<Elem>Desktop</Elem>
-										<Elem>NI VS Telemetry CD Fork</Elem>
+										<Elem>Dev</Elem>
+										<Elem>niveristand-telemetry-custom-device</Elem>
 										<Elem>Tests</Elem>
 										<Elem>System Tests</Elem>
+										<Elem>Telemetry System Tests</Elem>
 										<Elem>Assets</Elem>
-										<Elem>TLCD System</Elem>
 										<Elem>Logs</Elem>
 										<Elem>telemetry.tdms</Elem>
 									</StringArray>
@@ -260,11 +261,11 @@
 							</Properties>
 							<Errors />
 						</Section>
-						<Channel Name="Data FIFO Timeout" TypeGUID="03D3BB99-1485-13A6-561D1F898F032919" RowDim="1" ColDim="1" Units="" BitFields="1">
-							<Description>Indicates the total  number of times the Data FIFO had samples overwritten in the "Write Data to HW". Each overwriten sample contains the System Channel Values for one PCL Loop Iteration.</Description>
+						<Channel Name="Error Code" TypeGUID="03D3BB99-1485-13A6-561D1F898F032919" RowDim="1" ColDim="1" Units="" BitFields="1">
+							<Description>Indicates Error Codes from the Telemetry Custom Device.</Description>
 							<Properties>
 								<Property Name="user.CD.Channel Type">
-									<BinaryString>RGF0YSBGSUZPIFRpbWVvdXQ=</BinaryString>
+									<BinaryString>RXJyb3IgQ29kZQ==</BinaryString>
 								</Property>
 							</Properties>
 							<Errors />
