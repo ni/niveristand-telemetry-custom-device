@@ -40,4 +40,4 @@ By default, this custom device will overwrite the TDMS file created on the targe
  ### Custom Error Codes:
  | Error Code | Description |
  |------------|-------------|
- | **-8000** | This error code is generated when the VeriStand system pushes data faster than the Custom Device can handle. This will result in missing system channels data for some specific iterations of the VeriStand PCL. |
+ | **-8000** | Data Write Timeout. VeriStand system pushes data faster than the Custom Device can handle. This will result in missing system channels data for some specific iterations of the VeriStand PCL. |
