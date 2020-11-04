@@ -38,4 +38,5 @@ By default, this custom device will overwrite the TDMS file created on the targe
  The **Error Code** Channel reports the first internal error encountered during the execution of the Custom Device. It reports general LabVIEW error codes, and custom error codes.
  
  ### Custom Error Codes:
+ |---|---|
  | **-8000** | This error code is generated when the VeriStand system pushes data faster than the Custom Device can handle. This will result in missing system channels data for some specific iterations of the VeriStand PCL. |
