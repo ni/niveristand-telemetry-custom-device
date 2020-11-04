@@ -18,6 +18,7 @@
 		<Item Name="Get Log File Properties.vi" Type="VI" URL="../SubVIs/Get Log File Properties.vi"/>
 		<Item Name="Get System Channels Refnums.vi" Type="VI" URL="../SubVIs/Get System Channels Refnums.vi"/>
 		<Item Name="Set TDMS File Channel Properties.vi" Type="VI" URL="../SubVIs/Set TDMS File Channel Properties.vi"/>
+		<Item Name="Set TDMS File Group Properties.vi" Type="VI" URL="../SubVIs/Set TDMS File Group Properties.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="Engine Logging Data.ctl" Type="VI" URL="../Types/Engine Logging Data.ctl"/>
@@ -26,5 +27,4 @@
 		<Item Name="Logger Data.ctl" Type="VI" URL="../Types/Logger Data.ctl"/>
 	</Item>
 	<Item Name="RT Driver VI.vi" Type="VI" URL="../RT Driver VI.vi"/>
-	<Item Name="Set TDMS File Target Properties.vi" Type="VI" URL="../SubVIs/Set TDMS File Target Properties.vi"/>
 </Library>
