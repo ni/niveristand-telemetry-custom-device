@@ -33,3 +33,9 @@ The following system channels are logged:
 By default, this custom device will overwrite the TDMS file created on the target during each deployment. To keep the first file instead, disable **Overwrite File If Exists?**.
 
  **Note:** If **Overwrite File If Exists?** is not enabled and a log file is present at the target location, no new file will be created during deployment.
+ 
+ ## Error Code Channel
+ The **Error Code** Channel reports the first internal error encountered during the execution of the Custom Device. It reports general LabVIEW error codes, and custom error codes.
+ 
+ ### Custom Error Codes:
+ - **-8000** : This error code is generated when the VeriStand system pushes data faster than the Custom Device can handle. This will result in missing system channels data for some specific iterations of the VeriStand PCL. 
