@@ -26,4 +26,5 @@
 		<Item Name="Logger Data.ctl" Type="VI" URL="../Types/Logger Data.ctl"/>
 	</Item>
 	<Item Name="RT Driver VI.vi" Type="VI" URL="../RT Driver VI.vi"/>
+	<Item Name="Set TDMS File Target Properties.vi" Type="VI" URL="../SubVIs/Set TDMS File Target Properties.vi"/>
 </Library>
