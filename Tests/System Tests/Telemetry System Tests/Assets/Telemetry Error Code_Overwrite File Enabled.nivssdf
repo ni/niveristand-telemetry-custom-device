@@ -10,7 +10,7 @@
 				<String>Telemetry Error Code_Overwrite File Enabled</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.5</String>
+				<String>1.0.0.6</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -28,10 +28,10 @@
 				<Description />
 				<Properties>
 					<Property Name="OS">
-						<String>Windows</String>
+						<String>Linux_x64</String>
 					</Property>
 					<Property Name="IP Address">
-						<String>localhost</String>
+						<String />
 					</Property>
 					<Property Name="Control Loop Processor">
 						<I32>-2</I32>
@@ -103,7 +103,11 @@
 						<U16>0</U16>
 					</Property>
 				</Properties>
-				<Errors />
+				<Errors>
+					<Error Key="IPAddress" IsError="true" Code="-1">
+						<Message>Invalid IP address</Message>
+					</Error>
+				</Errors>
 				<Section Name="Hardware" TypeGUID="775504AB-1485-13A6-560018C1F4E3EEE1">
 					<Description />
 					<Properties />
@@ -241,13 +245,9 @@
 							<Properties>
 								<Property Name="user.CD.Log File Path">
 									<StringArray>
-										<Elem>C</Elem>
-										<Elem>Dev</Elem>
-										<Elem>niveristand-telemetry-custom-device</Elem>
-										<Elem>Tests</Elem>
-										<Elem>System Tests</Elem>
-										<Elem>Telemetry System Tests</Elem>
-										<Elem>Assets</Elem>
+										<Elem>c</Elem>
+										<Elem>ni-rt</Elem>
+										<Elem>NIVeriStand</Elem>
 										<Elem>Logs</Elem>
 										<Elem>telemetry.tdms</Elem>
 									</StringArray>
