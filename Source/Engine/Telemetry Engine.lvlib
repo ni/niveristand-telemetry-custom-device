@@ -17,6 +17,7 @@
 		<Item Name="Filter Channel Data.vi" Type="VI" URL="../SubVIs/Filter Channel Data.vi"/>
 		<Item Name="Get Log File Properties.vi" Type="VI" URL="../SubVIs/Get Log File Properties.vi"/>
 		<Item Name="Get System Channels Refnums.vi" Type="VI" URL="../SubVIs/Get System Channels Refnums.vi"/>
+		<Item Name="Get Target Info.vi" Type="VI" URL="../SubVIs/Get Target Info.vi"/>
 		<Item Name="Set TDMS File Channel Properties.vi" Type="VI" URL="../SubVIs/Set TDMS File Channel Properties.vi"/>
 		<Item Name="Set TDMS File Group Properties.vi" Type="VI" URL="../SubVIs/Set TDMS File Group Properties.vi"/>
 	</Item>
@@ -25,6 +26,7 @@
 		<Item Name="Engine State Data.ctl" Type="VI" URL="../Types/Engine State Data.ctl"/>
 		<Item Name="Log File Properties.ctl" Type="VI" URL="../Types/Log File Properties.ctl"/>
 		<Item Name="Logger Data.ctl" Type="VI" URL="../Types/Logger Data.ctl"/>
+		<Item Name="Target Info.ctl" Type="VI" URL="../Types/Target Info.ctl"/>
 	</Item>
 	<Item Name="RT Driver VI.vi" Type="VI" URL="../RT Driver VI.vi"/>
 </Library>
