@@ -19,6 +19,7 @@
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
+		<Item Name="Obtain Log File Reference.vi" Type="VI" URL="../SubVIs/Obtain Log File Reference.vi"/>
 		<Item Name="Get System Channel Properties.vi" Type="VI" URL="../SubVIs/Get System Channel Properties.vi"/>
 		<Item Name="Get System Channels Refnums.vi" Type="VI" URL="../SubVIs/Get System Channels Refnums.vi"/>
 		<Item Name="Get Target Info.vi" Type="VI" URL="../SubVIs/Get Target Info.vi"/>
