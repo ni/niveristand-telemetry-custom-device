@@ -36,7 +36,7 @@ Depending on the target type, the log file can be found in one of the following 
 
 By default, this custom device will overwrite the TDMS file created on the target during each deployment. To keep the first file instead, disable **Overwrite File If Exists?**.
 
-**Note:** If **Overwrite File If Exists?** is not enabled and a log file is present at the target location, no new file will be created during deployment. The **Error Code** Channel will report *Error 6: Generic File I/O Error*.
+**Note:** If **Overwrite File If Exists?** is not enabled and a log file is already present at the target location, no new file will be created during deployment. In this case, the **Error Code** Channel will report *Error 6: Generic File I/O Error*.
  
 ## Error Code Channel
 The **Error Code** Channel reports the first internal error encountered during the execution of the Custom Device. It reports general LabVIEW error codes, and custom error codes.
