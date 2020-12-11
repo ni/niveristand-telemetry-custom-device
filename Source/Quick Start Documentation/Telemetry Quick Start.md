@@ -1,6 +1,6 @@
 # Overview
 
-The Telemetry Custom Device enables data logging functionality to help you understand the health of a VeriStand system. It provides out of the box the ability to log system channels for each PCL iteration, and to monitor the target resources.
+The Telemetry Custom Device enables data logging functionality to help you understand the health of a VeriStand system. It provides, out of the box, the ability to log system channels for each PCL iteration, and to monitor the target resources.
 
 # Repo location
 
@@ -10,7 +10,7 @@ The Telemetry Custom Device enables data logging functionality to help you under
 
 After adding the custom device, you can deploy the system definition in VeriStand to begin logging data to a TDMS file. When you undeploy the system definition, you can access this file.
 
-Depending on the target type, the log file can be found in the following locations:
+Depending on the target type, the log file can be found in one of the following locations:
 - **Windows:** "&lt;System Definition Folder Path&gt;\Logs\telemetry.tdms"
 - **RT:** "c:\ni-rt\NIVeriStand\Logs\telemetry.tdms"
 
@@ -32,7 +32,7 @@ Depending on the target type, the log file can be found in the following locatio
 
 ### Target Resources:
 - Physical Memory Usage (%)
-- CPU x Usage (%) - where x represents each CPU present on the target.
+- CPU x Usage (%) - *where x represents each CPU present on the target*.
 
 By default, this custom device will overwrite the TDMS file created on the target during each deployment. To keep the first file instead, disable **Overwrite File If Exists?**.
 
