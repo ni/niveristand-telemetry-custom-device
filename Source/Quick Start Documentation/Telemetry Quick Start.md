@@ -32,7 +32,7 @@ Depending on the target type, the log file can be found in one of the following 
 
 ### Target Resources:
 - Physical Memory Usage (%)
-- CPU x Usage (%) - *where x represents each CPU present on the target*.
+- CPU x Usage (%) - *where x represents the number of each CPU present on the target system*.
 
 By default, this custom device will overwrite the TDMS file created on the target during each deployment. To keep the first file instead, disable **Overwrite File If Exists?**.
 
