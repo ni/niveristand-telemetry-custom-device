@@ -14,7 +14,7 @@ Depending on the target type, the log file can be found in the following locatio
 - **Windows:** "&lt;System Definition Folder Path&gt;\Logs\telemetry.tdms"
 - **RT:** "c:\ni-rt\NIVeriStand\Logs\telemetry.tdms"
 
-##Logged data:
+## Logged data:
 ### System Channels:
 - Absolute Time
 - Iteration
