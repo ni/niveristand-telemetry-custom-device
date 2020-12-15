@@ -22,7 +22,7 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 		</noscript>
 		<h1>Telemetry Custom Device</h1>
       <p>
-         The Telemetry Custom Device supports VeriStand benchmarking by logging system channel data for each PCL iteration.
+         The Telemetry Custom Device supports VeriStand benchmarking by logging system channels, and by monitoring target resources.
       </p>
       <p>
          You can find a Quick Start Guide for this custom device at the following location:
@@ -30,8 +30,8 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
       <p>
          "C:\Users\Public\Documents\National Instruments\NI VeriStand (Year)\Custom Devices\National Instruments\Telemetry\Windows\Quick Start Documentation\Telemetry Quick Start.md"
       </p>
-		<h2>Logged System Channels</h2>
-      The custom device will create a log file containing the following system channels:</br>
+		<h2>Logged Data</h2>
+      For each PCL iteration the custom device logs the following <strong>VeriStand System Channels</strong>: </br>
 		- Absolute Time </br>
       - Iteration </br>
       - Actual Loop Rate </br>
@@ -46,8 +46,12 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
       - WPL Overflow Count </br>
       - WPL TCP Overflow Count </br>
       </br>
+      The custom device also logs data representing the <strong>Target Resources</strong> for the target that is running the VeriStand Engine. The log file will contain the following metrics: </br>
+      - Physical Memory Usage (%) </br>
+      - CPU x Usage (%) - <i>where x represents the number of each CPU present on the target system.</i></br>
+      </br>
       <p>
-         The data will be logged as a TDMS file at the location described in the <strong>Log File</strong> page.
+         The data will be logged into a single TDMS file created at the location described in the <strong>Log File</strong> page.
       </p>
 	</body>
 </html>
