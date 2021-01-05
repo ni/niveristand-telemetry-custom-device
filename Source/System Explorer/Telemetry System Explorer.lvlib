@@ -20,12 +20,13 @@
 			<Item Name="Initialization VI.vi" Type="VI" URL="../Initialization VI.vi"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Add Log File.vi" Type="VI" URL="../SubVIs/Add Log File.vi"/>
 			<Item Name="Configure Log File Properties.vi" Type="VI" URL="../SubVIs/Configure Log File Properties.vi"/>
-			<Item Name="Get Data Log File Settings.vi" Type="VI" URL="../SubVIs/Get Data Log File Settings.vi"/>
 			<Item Name="Get Default Log File Path.vi" Type="VI" URL="../SubVIs/Get Default Log File Path.vi"/>
-			<Item Name="Load Help File.vi" Type="VI" URL="../SubVIs/Load Help File.vi"/>
+			<Item Name="Get Log File Settings.vi" Type="VI" URL="../SubVIs/Get Log File Settings.vi"/>
 			<Item Name="Update Log File Path.vi" Type="VI" URL="../SubVIs/Update Log File Path.vi"/>
+			<Item Name="Load Help File.vi" Type="VI" URL="../SubVIs/Load Help File.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder"/>
 	</Item>
