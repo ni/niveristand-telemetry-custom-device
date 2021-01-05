@@ -19,13 +19,14 @@
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="Obtain Log File Reference.vi" Type="VI" URL="../SubVIs/Obtain Log File Reference.vi"/>
-		<Item Name="Get System Channel Properties.vi" Type="VI" URL="../SubVIs/Get System Channel Properties.vi"/>
+		<Item Name="Get Log File Reference.vi" Type="VI" URL="../SubVIs/Get Log File Reference.vi"/>
 		<Item Name="Get System Channels Refnums.vi" Type="VI" URL="../SubVIs/Get System Channels Refnums.vi"/>
+		<Item Name="Get System Channel Properties.vi" Type="VI" URL="../SubVIs/Get System Channel Properties.vi"/>
 		<Item Name="Get Target Info.vi" Type="VI" URL="../SubVIs/Get Target Info.vi"/>
-		<Item Name="Set TDMS File Group Properties.vi" Type="VI" URL="../SubVIs/Set TDMS File Group Properties.vi"/>
-		<Item Name="Set TDMS File Channel Properties.vi" Type="VI" URL="../SubVIs/Set TDMS File Channel Properties.vi"/>
-		<Item Name="Set TDMS File CPU and RAM Channel Properties.vi" Type="VI" URL="../SubVIs/Set TDMS File CPU and RAM Channel Properties.vi"/>
+		<Item Name="Set Log File Properties.vi" Type="VI" URL="../SubVIs/Set Log File Properties.vi"/>
+		<Item Name="Set System Channels Group Properties.vi" Type="VI" URL="../SubVIs/Set System Channels Group Properties.vi"/>
+		<Item Name="Set System Channel Properties.vi" Type="VI" URL="../SubVIs/Set System Channel Properties.vi"/>
+		<Item Name="Set RAM and CPU Channel Properties.vi" Type="VI" URL="../SubVIs/Set RAM and CPU Channel Properties.vi"/>
 		<Item Name="Windows Get CPU Loads.vi" Type="VI" URL="../SubVIs/Windows Get CPU Loads.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
