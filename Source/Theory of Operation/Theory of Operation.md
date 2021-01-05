@@ -10,7 +10,7 @@ The following diagram illustrates how the Telemetry Custom Device uses an asynch
 
 - RT Driver VI:
 
-![](Resources\Telemetry_RT_Driver_VI_Diagram.PNG)
+![](.\Resources\Telemetry_RT_Driver_VI_Diagram.PNG)
 
 To view the RT Driver VI code open the VI from the "Engine\RT Driver VI.vi".
 
