@@ -6,7 +6,7 @@ The following topics detail how this custom device uses an asynchronous loop and
 
 # RT DRIVER
 
-The following diagram illustrates how the Telemetry Custom Device uses an asynchronous loop to execute with respect to the PCL and how the Telemetry communicates to the asynchronous loop via RT FIFOs. To view the code used to launch the loop, open the Initialize Logger VI from the "Engine\Init\Initialize Logger.vi".
+The following diagram illustrates how the Telemetry Custom Device uses an asynchronous loop to execute with respect to the PCL and how the Telemetry communicates to the asynchronous loop via RT FIFOs.
 
 ![RT Driver Diagram](./Resources/RT_Driver_VI_Diagram.png)
 
@@ -38,7 +38,9 @@ During the Close case of the RT Driver VI, we allow a delay for the asynchronous
 
 The asynchronous loop, Async Logger VI, is a VI that runs asynchronous to the PCL Loop. It contains a while loop for Data Processing and Logging, and a timed loop used for reading the CPU and RAM usage data.
 
-The Timed Loop will continually read and update the CPU-RAM FIFO with CPU and RAM usage data with a period of 400 milliseconds for RT Targets, and 2 seconds for Windows ones.
+The Timed Loop will continually read and update the CPU-RAM FIFO with CPU and RAM usage data with a period of 400 milliseconds for RT Targets, and 2 seconds for Windows ones. The size of this FIFO is 1, this means that we keep only the latest value inside this RT FIFO.
+
+To view the code used to launch the Async Logger, open the Initialize Logger VI from the "Engine\Init\Initialize Logger.vi". Inside this VI you can notice the default data for the Logger parameters. The Buffers.Size is a dynamic value that is calculated depending on the Engine Rate. For a Windows Target it will be twice the Engine Rate, in order to write the Buffers.LOG Data array each 2 seconds, as to be in sync with the CPU and RAM timed loop reading. For RT Targets it is half the Engine Rate, in order to write the Buffers.LOG Data close to the 400 ms timed loop update of the CPU-RAM usage update rate.
 
 The following diagram shows the states of the Data Processing and Logging Loop as this is the main execution loop for this VI.
 
