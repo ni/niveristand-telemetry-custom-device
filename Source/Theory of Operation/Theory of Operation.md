@@ -14,7 +14,10 @@ To view the RT Driver VI code open the VI from the "Engine\RT Driver VI.vi".
 
 ## Initialize
 
-In the "Initialize" case of the Telemetry RT Driver VI three RT FIFOs are created and the asynchronous loop is launched. The Data RT FIFO communicates channel data from the Telemetry RT Driver VI to the asynchronous loop. The Status RT FIFO communicates state information from the asynchronous loop to the Telemetry RT Driver VI. The Async Closed RT FIFO is used to communicate when the asynchronous loop finished execution in the Close case.
+In the "Initialize" case of the Telemetry RT Driver VI three RT FIFOs are created and the asynchronous loop is launched:
+- The Data RT FIFO communicates channel data from the Telemetry RT Driver VI to the asynchronous loop.
+- The Status RT FIFO communicates state information from the asynchronous loop to the Telemetry RT Driver VI.
+- The Async Closed RT FIFO is used to communicate when the asynchronous loop finished execution in the Close case.
 
 To view the code for the asynchronous loop, open the Async Logger VI from the "Engine\Run\Async Logger.vi".
 
