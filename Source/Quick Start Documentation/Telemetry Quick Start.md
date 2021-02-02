@@ -38,6 +38,25 @@ By default, this custom device will overwrite the TDMS file created on the targe
 
 **Note:** If **Overwrite File If Exists?** is not enabled and a log file is already present at the target location, no new file will be created during deployment. Instead, the **Error Code** Channel will report *Error 6: Generic File I/O Error*.
 
+## Disk Size Requirements
+
+The size of the TDMS log file resulted after a run will depend on the system configuration and runtime. The estimate size can be calculated using the following formula:
+
+- File Size [bytes/s] = &lt;TNC&gt; * &lt;Target Rate&gt; [Hz] * 8 [bytes]
+
+where:
+- &lt;TNC&gt; represents the total number of logged channels, which is the sum of 13 System Channels + 1 Physical Memory Usage + the total number of CPU cores of the target that is running the VeriStand system.
+- &lt;Target Rate&gt; represents the rate at which the VeriStand system runs.
+- 8 [bytes] represents the size on disk for one double-precision, floating-point numeric value (DBL). All logged channels from the file are of DBL type.
+
+Example of calculation for a standard quad core system running at 1 [kHz]:
+
+- File Size [bytes/s] = 18 * 1000 * 8 = 144,000 [bytes/s]
+
+If the system will run for one minute, the generated log file will have an estimated file size of:
+
+- 144,000 [bytes/s] * 60 [s] = 8,640,000 [bytes] = 8.24 [MB]
+
 ## Error Code Channel
 The **Error Code** channel reports the first internal error encountered during the execution of the custom device. The channel reports general LabVIEW error codes and custom error codes.
 
