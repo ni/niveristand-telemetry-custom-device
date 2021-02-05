@@ -32,5 +32,23 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
          By default, <strong>Overwrite File If Exists?</strong> is enabled. This option will overwrite the log file during each deployment of the system definition. </br>
          </br>
          <strong>Note: </strong>If <strong>Overwrite File If Exists?</strong> is not enabled, the custom device will only create a new log file if one does not already exist on the target. If a log file does exist, the <strong>Error Code</strong> channel will report <i>Error 6: Generic File I/O Error</i>.</p>
+      <h2>Disk Size Requirements</h2>
+      <p>
+         The size of the TDMS log file resulted after a run will depend on the system configuration and runtime. The estimate size can be calculated using the following formula:
+         <ul>
+         <li>File Size [bytes] = &lt;TNC&gt; * &lt;Target Rate&gt; [Hz] * &lt;Running Time&gt; [sec] * 8 [bytes];</li>
+         </ul>
+         <ul>
+         where:<br>
+         <li>&lt;TNC&gt;represents the total number of logged channels, which is the sum of 13 System Channels + 1 Physical Memory Usage + the total number of CPU cores of the target that is running the VeriStand system.</li>
+         <li>&lt;Target Rate&gt;represents the rate at which the VeriStand system runs.</li>
+         <li>&lt;Running Time&gt; represents the runtime of the deployed system.</li>
+         <li>8 [bytes] represents the size on disk for one double-precision, floating-point numeric value (DBL). All logged channels from the file are of DBL type.</li>
+         </ul>
+         Example of calculation for a standard quad core system running at 1 [kHz] for one minute:<br>
+         <ul>
+         <li>File Size [bytes] = 18 * 1000 * 60 * 8 = 8,640,000 [bytes] = 8.24 [MB]</li><br>
+         </ul>
+      </p>
 	</body>
 </html>
