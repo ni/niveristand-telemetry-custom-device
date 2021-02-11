@@ -40,17 +40,17 @@ By default, this custom device will overwrite the TDMS file created on the targe
 
 ## Disk Size Requirements
 
-The size of the TDMS log file resulted after a run will depend on the system configuration and runtime. The estimate size can be calculated using the following formula:
+The resulting TDMS log file size depends on the system configuration and runtime. You can estimate the file size using the following formula:
 
 - File Size [bytes] = &lt;TNC&gt; * &lt;Target Rate&gt; [Hz] * &lt;Running Time&gt; [sec] * 8 [bytes]
 
 where:
-- &lt;TNC&gt; represents the total number of logged channels, which is the sum of 13 System Channels + 1 Physical Memory Usage + the total number of CPU cores of the target that is running the VeriStand system.
-- &lt;Target Rate&gt; represents the rate at which the VeriStand system runs.
-- &lt;Running Time&gt; represents the runtime of the deployed system.
-- 8 [bytes] represents the size on disk for one double-precision, floating-point numeric value (DBL). All logged channels from the file are of DBL type.
+- &lt;TNC&gt; represents the total number of logged channels. This number is the sum of 13 System Channels, 1 for Physical Memory usage, and the total number of target CPU cores running in the VeriStand system.
+- &lt;Target Rate&gt; represents the VeriStand system's run rate.
+- &lt;Running Time&gt; represents the deployed system's runtime.
+- 8 [bytes] represents the disk size for one double-precision, floating-point (DBL) numeric value. All logged channels from the file are DBL.
 
-Example of calculation for a standard quad core system running at 1 [kHz] for one minute:
+The following example is of a size calculation for a standard quad core system running at 1 [kHz] for a minute:
 
 - File Size [bytes] = 18 * 1000 * 60 * 8 = 8,640,000 [bytes] = 8.24 [MB]
 
