@@ -22,36 +22,38 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 		</noscript>
 		<h1>Telemetry Custom Device</h1>
       <p>
-         The Telemetry Custom Device supports VeriStand benchmarking by logging system channels, and by monitoring target resources.
+         The Telemetry Custom Device supports VeriStand benchmarking by helping you log system channels and monitor target resources. You can find a Quick Start Guide for this custom device at the following location:
       </p>
       <p>
-         You can find a Quick Start Guide for this custom device at the following location:
-      </p>
-      <p>
-         "C:\Users\Public\Documents\National Instruments\NI VeriStand (Year)\Custom Devices\National Instruments\Telemetry\Windows\Quick Start Documentation\Telemetry Quick Start.md"
+         "%Public%\Documents\National Instruments\NI VeriStand (Year)\Custom Devices\National Instruments\Telemetry\Windows\Quick Start Documentation\Telemetry Quick Start.md"
       </p>
 		<h2>Logged Data</h2>
-      For each PCL iteration the custom device logs the following <strong>VeriStand System Channels</strong>: </br>
-		- Absolute Time </br>
-      - Iteration </br>
-      - Actual Loop Rate </br>
-      - HP Loop Duration </br>
-      - HP Count </br>
-      - LP Count </br>
-      - LP Data Count </br>
-      - Failure Count </br>
-      - HS TCP Overflow Count </br>
-      - Model Count </br>
-      - WPL Error Count </br>
-      - WPL Overflow Count </br>
-      - WPL TCP Overflow Count </br>
-      </br>
-      The custom device also logs data representing the <strong>Target Resources</strong> for the target that is running the VeriStand Engine. The log file will contain the following metrics: </br>
-      - Physical Memory Usage (%) </br>
-      - CPU x Usage (%) - <i>where x represents the number of each CPU present on the target system.</i></br>
-      </br>
-      <p>
-         The data will be logged into a single TDMS file created at the location described in the <strong>Log File</strong> page.
-      </p>
+		<p>
+			 Data is logged into a TDMS file created at the location specified on the <strong>Log File</strong> page.
+		</p>
+		<p>For each PCL iteration, the custom device logs the following <strong>VeriStand System Channels</strong>:
+		<ul>
+			<li>Absolute Time</li>
+      <li>Iteration</li>
+      <li>Actual Loop Rate</li>
+      <li>HP Loop Duration</li>
+      <li>HP Count</li>
+      <li>LP Count</li>
+      <li>LP Data Count</li>
+      <li>Failure Count</li>
+      <li>HS TCP Overflow Count</li>
+      <li>Model Count</li>
+      <li>WPL Error Count</li>
+      <li>WPL Overflow Count</li>
+      <li>WPL TCP Overflow Count</li>
+		</ul>
+			</p>
+			<p>
+				The custom device also logs <strong>Target Resources</strong> data for the target that is running the VeriStand Engine. The log file will contain the following metrics: </br>
+			<ul>
+			<li>Physical Memory Usage (%)</li>
+      <li>CPU &lt;XXX&gt; Usage (%), where &lt;XXX&gt; represents the number of the CPU on the target system.</li>
+			</ul>
+			</p>
 	</body>
 </html>
