@@ -27,22 +27,6 @@
         <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\National Instruments\Telemetry\Telemetry Engine Windows.llb\RT Driver VI.vi</RealTimeSystemDestination>
       </Source>
       <Source>
-        <SupportedTarget>Pharlap</SupportedTarget>
-        <Source>
-          <Type>To Common Doc Dir</Type>
-          <Path>Custom Devices\National Instruments\Telemetry\PharLap\Telemetry Engine Pharlap.llb\RT Driver VI.vi</Path>
-        </Source>
-        <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\National Instruments\Telemetry\Telemetry Engine Pharlap.llb\RT Driver VI.vi</RealTimeSystemDestination>
-      </Source>
-      <Source>
-        <SupportedTarget>Linux_32_ARM</SupportedTarget>
-        <Source>
-          <Type>To Common Doc Dir</Type>
-          <Path>Custom Devices\National Instruments\Telemetry\Linux_32_ARM\Telemetry Engine LinuxARM.llb\RT Driver VI.vi</Path>
-        </Source>
-        <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\National Instruments\Telemetry\Telemetry Engine LinuxARM.llb\RT Driver VI.vi</RealTimeSystemDestination>
-      </Source>
-      <Source>
         <SupportedTarget>Linux_x64</SupportedTarget>
         <Source>
           <Type>To Common Doc Dir</Type>
