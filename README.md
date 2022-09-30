@@ -2,6 +2,10 @@
 
 The **Telemetry Custom Device** allows users to benchmark their VeriStand system by logging VeriStand System Channels to a file.
 
+## Using the Custom Device
+
+- Download the latest release of the VeriStand Custom Devices on [ni.com](https://www.ni.com/en-us/support/downloads/software-products/download.veristand-custom-devices.html) or manually from the [GitHub Releases page](https://github.com/ni/niveristand-telemetry-custom-device/releases)
+
 ## LabVIEW Source Code Version
 
 LabVIEW 2019
