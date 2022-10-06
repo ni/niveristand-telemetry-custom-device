@@ -2,20 +2,30 @@
 
 The **Telemetry Custom Device** allows users to benchmark their VeriStand system by logging VeriStand System Channels to a file.
 
-## LabVIEW Version
+## Using the Custom Device
+
+- Download the latest release of the VeriStand Custom Devices on [ni.com](https://www.ni.com/en-us/support/downloads/software-products/download.veristand-custom-devices.html) or manually from the [GitHub Releases page](https://github.com/ni/niveristand-telemetry-custom-device/releases)
+
+## LabVIEW Source Code Version
 
 LabVIEW 2019
 
 ## Dependencies
 
-- [NI VeriStand Custom Device Development Tools](https://github.com/ni/niveristand-custom-device-development-tools/releases) that contains:
-   - NI VeriStand Advanced System Definition Utilities
-   - NI VeriStand Addon CD Import and Export Tool
-   - NI VeriStand Addon Error API
-   - NI Veristand Compiled HTML Menu Tool
-- Microsoft HTML Help Workshop and Documentation >= 1.32
-- [NI VeriStand Custom Device Testing Tools](https://github.com/ni/niveristand-custom-device-testing-tools)
-- JKI VI Tester >= 3.0.2.294-1
+### Running the custom device
+
+- [VeriStand 2019 or later](https://www.ni.com/en-us/support/downloads/software-products/download.veristand.html)
+
+### Developing or building from source
+
+The additional software listed below is required to develop or build this custom device from source.
+
+- [LabVIEW 2019 or later](https://www.ni.com/en-us/support/downloads/software-products/download.labview.html)
+- [LabVIEW Real-Time Module](https://www.ni.com/en-us/support/downloads/software-products/download.labview-real-time-module.html)
+- [VeriStand Custom Device Development Tools](https://github.com/ni/niveristand-custom-device-development-tools)
+  - Install the latest package from the [release page](https://github.com/ni/niveristand-custom-device-development-tools/releases)
+- [VeriStand Custom Device Testing Tools](https://github.com/ni/niveristand-custom-device-testing-tools)
+  - Install the latest package from the [release page](https://github.com/ni/niveristand-custom-device-testing-tools/releases)
 
 ## Git History & Rebasing Policy
 

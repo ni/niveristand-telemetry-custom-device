@@ -1,6 +1,29 @@
-Built
-*.lvlps
+Built/
+
+# Libraries
+*.lvlibp
+*.llb
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+
+# Metadata
 *.aliases
+*.lvlps
+*.lvproj.config
+
+# Intermediate Help Files
+*.log
+*.hhp
+*.chm
+
+# Generated test assets
 Tests/System Tests/Temp/
 Tests/System Tests/Assets/TLCD System/.cache/
 Tests/System Tests/Assets/TLCD System/Logs/
