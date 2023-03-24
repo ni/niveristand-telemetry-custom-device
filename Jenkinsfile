@@ -8,5 +8,3 @@ def lvVersions = [
 ]
 
 diffPipeline(lvVersions)
-ni.vsbuild.PipelineExecutor.execute(this, 'vs_cd_build', lvVersions)
-
