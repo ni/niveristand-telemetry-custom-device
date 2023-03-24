@@ -42,5 +42,5 @@ stages:
       packages:
         - controlFileName: 'control'
           payloadMaps:
-            - installLocation: 'documents\National Instruments\NI VeriStand {veristand_version}\Custom Devices\National Instruments'
+            - installLocation: 'documents\National Instruments\NI VeriStand $(lvVersion)\Custom Devices\National Instruments'
               payloadLocation: 'Built'
