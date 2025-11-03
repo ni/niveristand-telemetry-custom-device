@@ -8,7 +8,7 @@ The **Telemetry Custom Device** allows users to benchmark their VeriStand system
 
 ## LabVIEW Source Code Version
 
-LabVIEW 2020
+LabVIEW 2024
 
 ## Dependencies
 
